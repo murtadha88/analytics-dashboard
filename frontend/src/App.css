@@ -1,0 +1,40 @@
+.app-container {
+  min-height: 100vh;
+  background: #f0f4ff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-card {
+  width: 100%;
+  max-width: 1000px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1E40AF;
+  margin-bottom: 1.5rem;
+}
+
+.message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.message.success {
+  color: #059669;
+}
+.message.error {
+  color: #DC2626;
+}
